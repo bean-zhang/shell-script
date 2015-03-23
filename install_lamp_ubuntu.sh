@@ -8,18 +8,20 @@
 
 cd ~
 apt-get update
+apt-get upgrade -y
 
 # Install Apache2
 apt-get install -y apache2
-# Install php5
-apt-get install -y php5
-# Install Apache2 php5 lib
-apt-get install -y libapache2-mod-php5
 
 # Backup /etc/apache2/apache2.conf
 cp /etc/apache2/apache2.conf /etc/apache2/apache2.conf.bak
 
 echo "ServerName 127.0.0.1" >> /etc/apache2/apache2.conf
+
+# Install php5
+apt-get install -y php5
+# Install Apache2 php5 lib
+apt-get install -y libapache2-mod-php5
 
 # Replace the MySQL root password with your own
 MYSQL_ROOT_PASSWORD=$1
@@ -57,7 +59,5 @@ echo "<?php phpinfo() ?>" > /var/www/html/info.php
 
 # Replace PhpMyAdmin password with your own
 # PHPMYADMIN_PASSWORD=$2
-
-
 
 
