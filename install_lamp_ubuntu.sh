@@ -28,9 +28,9 @@ MYSQL_ROOT_PASSWORD=$1
 
 # 
 echo mysql-server mysql-server/root_password password \ 
-$MYSQL_ROOT_PASSWORD | debconf-set-selections
+ $MYSQL_ROOT_PASSWORD | debconf-set-selections
 echo mysql-server mysql-server/root_password_again password \ 
-$MYSQL_ROOT_PASSWORD | debconf-set-selections
+ $MYSQL_ROOT_PASSWORD | debconf-set-selections
 
 # Install MySQL server
 apt-get install -y mysql-server
@@ -56,8 +56,4 @@ service mysql restart
 
 # Create info.php
 echo "<?php phpinfo() ?>" > /var/www/html/info.php
-
-# Replace PhpMyAdmin password with your own
-# PHPMYADMIN_PASSWORD=$2
-
 
