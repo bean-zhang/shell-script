@@ -27,3 +27,7 @@ git clone https://github.com/87boy/shell-script.git
 cd shell-script
 chmod +x install_lamp_ubuntu.sh
 
+# Add hostname to /etc/hosts
+hostname=$(cat /etc/hostname)
+sed -i '3a\127.0.0.1\t$hostname' /etc/hosts
+
