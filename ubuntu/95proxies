@@ -1,0 +1,11 @@
+#!/bin/bash
+#
+# Set the proxy for apt-get, aptitude, etc. Put this file in
+# /etc/apt/apt.conf.d/
+#
+# author: Bin Zhang
+# email: sjtuzb@gmail.com
+#
+Acquire::http::proxy "http://proxy.example.com:8080/";
+Acquire::https::proxy "https://proxy.example.com:8080/";
+Acquire::ftp::proxy "ftp://proxy.example.com:8080/";
