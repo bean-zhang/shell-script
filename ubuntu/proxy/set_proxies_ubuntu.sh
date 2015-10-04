@@ -5,8 +5,9 @@
 # author: Bin Zhang
 # email: sjtuzb@gmail.com
 #
-sudo cp ~/git/proxy.sh /etc/profile.d/
-sudo cp ~/git/95proxies /etc/apt/apt.conf.d/
+
+sudo cp ~/git/shell-script/ubuntu/proxy/proxy.sh /etc/profile.d/
+sudo cp ~/git/shell-script/ubuntu/proxy/95proxies /etc/apt/apt.conf.d/
 
 source /etc/profile.d/proxy.sh
 
@@ -26,8 +27,7 @@ then
 	touch ${config_file}
 fi
 
-echo "Host				git.coding.net" >> ${config_file}
+echo "Host				git.example.com" >> ${config_file}
 echo "User				git" >> ${config_file}
 echo "ProxyCommand		/bin/nc -X connect -x proxy_ip:proxy_port %h %p" >> ${config_file}
-
 

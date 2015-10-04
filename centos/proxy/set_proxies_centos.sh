@@ -5,7 +5,7 @@
 # author: Bin Zhang
 # email: sjtuzb@gmail.com
 #
-cp ~/git/proxy.sh /etc/profile.d/
+cp ~/git/shell-script/centos/proxy/proxy.sh /etc/profile.d/
 #cp ~/git/95proxies /etc/apt/apt.conf.d/
 
 source /etc/profile.d/proxy.sh
@@ -16,5 +16,5 @@ source /etc/profile.d/proxy.sh
 # Backup /etc/yum.conf
 cp /etc/yum.conf /etc/yum.conf.bak
 # Configure yum
-echo "proxy=http://proxy.example.com:8080/" >> /etc/yum.conf
+echo "proxy=http://proxy.example.com:port/" >> /etc/yum.conf
 

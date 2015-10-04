@@ -8,7 +8,7 @@
 
 cd ~
 apt-get update
-apt-get upgrade -y
+apt-get dist-upgrade -y
 
 # Install vim
 apt-get install -y vim
@@ -16,7 +16,7 @@ apt-get install -y vim
 # Install git
 apt-get install -y git
 # Config git colorful output
-git config color.ui true
+git config --global color.ui true
 
 mkdir git
 cd git

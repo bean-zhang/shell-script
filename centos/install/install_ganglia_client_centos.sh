@@ -8,3 +8,4 @@
 cd ~
 # Install Ganglia Monitor
 yum install -y ganglia-monitor
+
