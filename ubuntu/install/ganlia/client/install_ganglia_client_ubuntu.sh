@@ -6,7 +6,14 @@
 # email: sjtuzb@gmail.com
 #
 
-cd ~
 # Install Ganglia Monitor
-apt-get install -y ganglia-monitor
-# 
+sudo apt-get install -y ganglia-monitor
+# config gmond
+gmond_conf=./unicast.gmond.conf
+if [ -f "${gmond_conf}" ]
+then
+	sudo mv /etc/ganglia/gmond.conf /etc/ganglia/gmond.conf.bak
+	sudo cp ${gmond_conf} /etc/ganglia/gmond.conf
+fi
+# restart gmond
+#sudo service ganglia-monitor restart
