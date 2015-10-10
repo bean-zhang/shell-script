@@ -26,4 +26,6 @@ then
 fi
 # restart all the services related to ganglia
 #sudo service ganglia-monitor restart && sudo service gmetad restart && sudo service apache2 restart
+# auto start when system start up
+sudo update-rc.d ganglia defaults
 

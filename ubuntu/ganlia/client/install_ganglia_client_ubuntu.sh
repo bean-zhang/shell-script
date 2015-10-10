@@ -17,3 +17,6 @@ then
 fi
 # restart gmond
 #sudo service ganglia-monitor restart
+# auto start gmond when system start up
+sudo update-rc.d ganglia-monitor defaults
+
