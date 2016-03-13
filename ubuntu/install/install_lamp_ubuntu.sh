@@ -1,6 +1,7 @@
 #!/bin/bash
 #
 # Install LAMP on Ubuntu
+# Refer to https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-14-04
 #
 # author: Bin Zhang
 # email: sjtuzb@gmail.com
