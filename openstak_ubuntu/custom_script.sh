@@ -2,7 +2,7 @@
 #
 # custom script when launch an instance in openstack
 #
-# author: Bin Zhang
+# author: Bean Zhang
 # email: sjtuzb@gmail.com
 #
 

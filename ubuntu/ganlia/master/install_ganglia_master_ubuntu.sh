@@ -2,7 +2,7 @@
 #
 # Install Ganglia Master Node on Ubuntu
 #
-# author: Bin Zhang
+# author: Bean Zhang
 # email: sjtuzb@gmail.com
 #
 

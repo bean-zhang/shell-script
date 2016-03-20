@@ -3,7 +3,7 @@
 # Set the proxy for apt-get, aptitude, etc. Put this file in
 # /etc/apt/apt.conf.d/
 #
-# author: Bin Zhang
+# author: Bean Zhang
 # email: sjtuzb@gmail.com
 #
 

@@ -2,7 +2,7 @@
 #
 # unset the proxy
 #
-# author: Bin Zhang
+# author: Bean Zhang
 # email: sjtuzb@gmail.com
 #
 

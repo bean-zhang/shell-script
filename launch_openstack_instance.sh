@@ -2,7 +2,7 @@
 #
 # Launch OpenStack Instance
 #
-# author: Bin Zhang
+# author: Bean Zhang
 # email: sjtuzb@gmail.com
 #
 

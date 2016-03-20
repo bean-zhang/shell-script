@@ -2,7 +2,7 @@
 #
 # Set the proxy. Put this file in /etc/profile.d/
 #
-# author: Bin Zhang
+# author: Bean Zhang
 # email: sjtuzb@gmail.com
 #
 

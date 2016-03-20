@@ -2,7 +2,7 @@
 #
 # Install Ganglia Client Node on CentOS
 #
-# author: Bin Zhang
+# author: Bean Zhang
 # email: sjtuzb@gmail.com
 #
 

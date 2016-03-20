@@ -2,7 +2,7 @@
 #
 # upgrade all packages with pip
 #
-# author: Bin Zhang
+# author: Bean Zhang
 # email: sjtuzb@gmail.com
 #
 

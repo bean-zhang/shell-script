@@ -2,7 +2,7 @@
 #
 # Set the proxies on CentOS
 #
-# author: Bin Zhang
+# author: Bean Zhang
 # email: sjtuzb@gmail.com
 #
 sudo cp ~/git/shell-script/centos/proxy/proxy.sh /etc/profile.d/

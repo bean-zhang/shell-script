@@ -2,7 +2,7 @@
 #
 # Install Git and git clone on CentOS
 #
-# author: Bin Zhang
+# author: Bean Zhang
 # email: sjtuzb@gmail.com
 #
 cd ~

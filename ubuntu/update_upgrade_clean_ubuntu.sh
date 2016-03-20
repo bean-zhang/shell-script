@@ -2,7 +2,7 @@
 #
 # update, upgrade, remove and clean Ubuntu
 #
-# author: Bin Zhang
+# author: Bean Zhang
 # email: sjtuzb@gmail.com
 #
 

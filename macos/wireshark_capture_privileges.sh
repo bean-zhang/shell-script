@@ -2,7 +2,7 @@
 #
 # wirshark capture privileges
 #
-# author: Bin Zhang
+# author: Bean Zhang
 # sjtuzb@gmail.com
 #
 chown ZB /dev/bpf*
